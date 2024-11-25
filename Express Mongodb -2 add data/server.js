@@ -1,14 +1,15 @@
 const express = require("express");
 const server = express();
 const dbConnection = require('./database');
-const cros = require('cros');
+const cors = require('cors');
 
-server.use(express.json());
-server.use(code)
-server.use(cros())
+
+server.use(express.json()); // for read json data
+server.use(express.urlencoded({extended:true})); // for form encode data send to server databse
+server.use(cors())
 server.get('/',(req,res)=>{
 
-    res.send("sns")
+    res.send("server working fine")
 })
 
 require('./src/Routes/backend/categories.routes')(server);
