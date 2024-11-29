@@ -1,0 +1,303 @@
+[{
+  "_id": {
+    "$oid": "674829f7d86f7de8bb82ff6f"
+  },
+  "name": "dadads",
+  "image": "d5.jpg",
+  "status": false,
+  "order": 5,
+  "created_at": {
+    "$date": "2024-11-28T08:29:43.343Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T08:29:43.343Z"
+  },
+  "__v": 0,
+  "deleted_at": {
+    "$date": "2024-11-28T11:47:20.438Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e17044c3d2e8e6b4aad"
+  },
+  "name": "dsdsfsdafs",
+  "image": "dsss5.jpg",
+  "status": true,
+  "order": 5,
+  "created_at": {
+    "$date": "2024-11-28T08:47:19.484Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T08:47:19.484Z"
+  },
+  "__v": 0,
+  "deleted_at": {
+    "$date": "2024-11-28T11:39:39.688Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67482e1d044c3d2e8e6b4aaf"
+  },
+  "name": "ted",
+  "image": "dsss5.jpg",
+  "status": true,
+  "order": 5,
+  "created_at": {
+    "$date": "2024-11-28T08:47:25.921Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T08:47:25.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67482fc094b1942e0ce54c43"
+  },
+  "name": "ted",
+  "image": "dsss5.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67482fc594b1942e0ce54c45"
+  },
+  "name": "tesd",
+  "image": "dsss5.jpg",
+  "status": false,
+  "order": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67482fcf94b1942e0ce54c47"
+  },
+  "name": "tessssd",
+  "image": "dssssss5.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6748310bbaa22235fbdded65"
+  },
+  "name": "jai",
+  "image": "sfa.jpg",
+  "status": true,
+  "order": 1,
+  "created_at": {
+    "$date": "2024-11-28T08:59:55.041Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T08:59:55.041Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6748310fbaa22235fbdded67"
+  },
+  "name": "jadfsdfi",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 1,
+  "created_at": {
+    "$date": "2024-11-28T08:59:55.041Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T08:59:55.041Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67483131340ef7e561bd5d6e"
+  },
+  "name": "jadfsdfi",
+  "image": "sfdfdssa.jpg",
+  "status": false,
+  "order": 5,
+  "created_at": {
+    "$date": "2024-11-28T09:00:05.596Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:00:05.596Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6748321b3b84d16fd82d5af0"
+  },
+  "name": "fdfg",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:03:59.107Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:03:59.107Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6748392911c6d86130981808"
+  },
+  "name": "Wasd fsfsdfdff",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:34:32.032Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:34:32.032Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674839a146b18b2ec6ec95ee"
+  },
+  "name": "Wasd fsfsdfdff",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:36:14.684Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:36:14.684Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674839a846b18b2ec6ec95f0"
+  },
+  "name": "Wasd ssfsdfdff",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:36:14.684Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:36:14.684Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674839c289a51e57f184d3c5"
+  },
+  "name": "Wasd ssfsdfdff '",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:37:04.380Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:37:04.380Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67483dbc186fd3eba93f61a5"
+  },
+  "name": "women",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:54:03.465Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:54:03.465Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67483ddb186fd3eba93f61a9"
+  },
+  "name": "men",
+  "image": "sfdfdssa.jpg",
+  "status": true,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T09:54:03.465Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T09:54:03.465Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674840fc1255e2dae785760c"
+  },
+  "name": "men",
+  "image": "sfdfdssa.jpg",
+  "status": false,
+  "order": 100,
+  "created_at": {
+    "$date": "2024-11-28T10:07:26.223Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-28T10:07:26.223Z"
+  },
+  "deleted_at": {
+    "$date": "2024-11-28T11:29:04.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67497335a41cf9354bd0a1c7"
+  },
+  "name": "women",
+  "image": "ddfs.jpg",
+  "status": false,
+  "order": 5,
+  "created_at": {
+    "$date": "2024-11-29T07:53:46.955Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-29T07:53:46.955Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67498514276cb155fdde3ee4"
+  },
+  "name": "women new",
+  "image": "tata.jpg",
+  "status": true,
+  "order": 8,
+  "created_at": {
+    "$date": "2024-11-29T09:10:42.032Z"
+  },
+  "updated_at": {
+    "$date": "2024-11-29T09:10:42.032Z"
+  },
+  "deleted_at": null,
+  "__v": 0
+}]
