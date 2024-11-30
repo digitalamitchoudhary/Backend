@@ -201,24 +201,78 @@ exports.view = async (req, res) => {
 
       // ******************************* And  & Or Condition ****************************************
 
+
+            const addCondition = [
+              {
+                deleted_at: null,
+              }
+            ];
+
+            const orCondition = [];
+
+            if(req.body.order != undefined){
+            if (req.body.order != "") {
+              orCondition.push({ order: req.body.order });
+            }}
+
+            if(req.body.name != undefined){
+            if(req.body.name != ''){
+              orCondition.push({name : req.body.name})
+            }}
+
+            if (addCondition.length > 0){
+              var filter = {$and : addCondition}
+            }else{
+              var filter = {}
+            }
+
+            if (orCondition.length > 0){
+                filter.$or = orCondition
+            }
+            
+            console.log(filter);  
+            
+    
+      // const categoryData = await categoryModel.find(filter);
+
+
       const categoryData = await categoryModel.find(
         
-
+        
         {
-          deleted_at : null,
-          $or : [
-            {
-              name:'men'
-            },
-            {
-              name:'women'
-            },
-            // {
-            //   name:'women new'
-            // }
-          ]
-        }
-      );
+          
+          name: { $exists: true },
+          deleted_at: null,
+          order: { $type: 16 }
+        
+        });
+      // Model.find({role: { $type: 2 } });
+
+  
+
+
+
+
+
+      // normal method **************************************
+      // const categoryData = await categoryModel.find(
+        
+
+      //   {
+      //     deleted_at : null,
+      //     $or : [
+      //       {
+      //         name:'men'
+      //       },
+      //       {
+      //         name:'women'
+      //       },
+      //       // {
+      //       //   name:'women new'
+      //       // }
+      //     ]
+      //   }
+      // );
 
 
 
